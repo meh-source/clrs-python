@@ -1,0 +1,7 @@
+ch2/.vscode/settings.json
+ch2/tests/__pycache__/test_binary_addition.cpython-39.pyc
+ch2/tests/__pycache__/test_binary_search.cpython-39.pyc
+ch2/tests/__pycache__/test_insertion_sort.cpython-39.pyc
+ch2/tests/__pycache__/test_linear_search.cpython-39.pyc
+ch2/tests/__pycache__/test_merge_sort.cpython-39.pyc
+ch2/tests/__pycache__/test_selection_sort.cpython-39.pyc
