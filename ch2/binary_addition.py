@@ -8,17 +8,17 @@ def binary_addition(A, B, n):
     C = [0 for _ in range(n+1)]
 
     carry = 0
-    for i in range(n):
+    for i in range(n-1, -1, -1):
         s = A[i] + B[i] + carry
         if s == 3:
             carry = 1
-            C[i] = 1
+            C[i+1] = 1
         elif s == 2:
-            carry = 0
-            C[i] = 0
+            carry = 1
+            C[i+1] = 0
         else:
-            carry = 0
-            C[i] = s
+            carry=0
+            C[i+1] = s
     
-    C[n] = carry 
+    C[0] = carry 
     return C
